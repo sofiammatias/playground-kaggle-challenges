@@ -1,0 +1,46 @@
+(GET LONG-LIVED-USER-ACCESS-TOKEN)
+
+client_id=APP-ID& (1577745859289709)
+client_secret=APP-SECRET& (db2bd1b337aa2754fd923d52f9da07aa)
+fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN (EAAWa85V9Im0BAAeQsK7ZB6fesXlaeR1mGg8B0AcUqB8H4FOn30n2cWyF8PvgIM1f7RJLA0eIkSI5EwXQdtHdGCJtLxHg4bRZAavZAUd297i3ZByXJOC9ZAFIyNP4ZCeAqNkcmdkrGYgncxFYC2kNn5bJfJZAmzN5oKL6XPdHtdhlCn4vNZBKJEqZC6ocUcGAjeJwvHSgbZB7DnAeK73bK8DhMeGmKpOdC966dfRRvg0xYgl6vRrBrlSlR8Sw3Uxn1F6g8ZD)
+
+curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=1392868561198762&client_secret=3af8cb9b72b3f07e1a15b8fa7b3072e2&fb_exchange_token=EAATyznvPHqoBAIZCFtNsh4qrcgS5H8T5ZAuW91BnouSYQHe0zy0o6O0HcAJZCR6OeA7DAPb5S5GYntzZAXEZC3BcKIsMex4acjZCVprpd1pUZCUx4N4qZCBhQI9VJOVooZC22Jp9bIuzz1JoffEY3PSfz03TKk80QqmoWM5Iti1sNYZCu4vGRRMa6HqyvXSNs6XOtntg5vQwCEmO6KHjx0WmBhIcK0sQmfZAfIZD"
+
+(GET PAGE-ACCESS-TOKEN)
+
+curl -i -X GET "https://graph.facebook.com/{your-user-id}/accounts?access_token={user-access-token}
+
+curl -i -X GET "https://graph.facebook.com/10220187325383854/accounts?access_token=EAAWa85V9Im0BAARAVpJbwzjBUygOuaoi9iumGDluFfpoGHAdGZCJTSBbO6dTa5lxb8nGnt3GXvRYhnj2ZA5EeJ7bisal1o3RcjJ8X0sGwPw1YdZAfQD9ZCPmUHUVyCM0YYT5jw6LaY0inKypfKIAGXFWEDZCef6JrVv5cT74JQd0BHKKakEFH
+
+PublicacoesTagusHome (facebook)
+
+user_id: 10220187325383854
+
+page id:113080717148663
+
+LONG-LIVED-USER-ACCESS-TOKEN:
+
+EAAWa85V9Im0BAARAVpJbwzjBUygOuaoi9iumGDluFfpoGHAdGZCJTSBbO6dTa5lxb8nGnt3GXvRYhnj2ZA5EeJ7bisal1o3RcjJ8X0sGwPw1YdZAfQD9ZCPmUHUVyCM0YYT5jw6LaY0inKypfKIAGXFWEDZCef6JrVv5cT74JQd0BHKKakEFH
+
+PAGE-ACCESS-TOKEN (HerbAlcochete - não esquecer de definir tb nos acessos da própria APP no Meta Developers):
+
+EAAWa85V9Im0BAAdJYDLflcvuC01OprFEbe6FKUDp0d7MbQ52jxo8hZBoZAh2aZBV0AZCjR5nOu3f8Ucl0VLHazbANBpKEYFv5b0ouQ2SZCpyGvByJoXgGxRZC2FeggHzbYnQZAfAcos4COXLhQRb3DnMrycOc3DG7jCplNZBl5zZByMf6xTKK0LwNgPYVrj93JECGTVb2QDXlnDovl6F4tTkkeU9N58meN54ZD
+
+
+PubsTagusHome (Instagram)
+
+(REFRESH BEFORE EXPIRES)
+
+curl -i -X GET "https://graph.instagram.com/refresh_access_token
+  ?grant_type=ig_refresh_token
+  &access_token={long-lived-access-token}"
+
+curl -i -X GET "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=EAATyznvPHqoBAFc7FSYX8v3iJx53OCtla8lfi5jsSZBsKdhtQrnou9c2GbzUwkL9nstXAmKGuocSaVDnDiK5QDwXWZCGslrSQWluJhxZAHZBYqIKn7fO6cRGprMF35aZAZACQ7dPYZAsCj01q0kUM5gK4ZAlHSquxFZAPSY6hPkqP0coKxAEnzZCXy"
+
+
+IG_user_ID = '17841438887636141'
+
+LONG-LIVED-USER-ACCESS-TOKEN (Instagram):
+
+EAATyznvPHqoBAFc7FSYX8v3iJx53OCtla8lfi5jsSZBsKdhtQrnou9c2GbzUwkL9nstXAmKGuocSaVDnDiK5QDwXWZCGslrSQWluJhxZAHZBYqIKn7fO6cRGprMF35aZAZACQ7dPYZAsCj01q0kUM5gK4ZAlHSquxFZAPSY6hPkqP0coKxAEnzZCXy
+

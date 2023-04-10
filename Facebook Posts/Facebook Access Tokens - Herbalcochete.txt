@@ -1,0 +1,41 @@
+(GET LONG-LIVED-USER-ACCESS-TOKEN)
+
+client_id=APP-ID& (570025501392165)
+client_secret=APP-SECRET& (d37196d3bf5f40b164a992181b84f4ae)
+fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN (EAAIGb2eFZCSUBAKQ71LLnIH3ZC1Iu9WziUD4FaKOZBJDBXqSJ7vL7pvDlPXuCGiAMWfYaJD78vLS3ptJQdXB6IE4aqWdQKyB4K43Oy3DOdYlZANdTVIiZCJxkDhp3ePSRQFmF3GPL7VXtsGWus2xE0ExE164C6VmWSkM4gt8YZCX3lShPRlda8f2hSDJ70caR5MnGGiZB4ABYDKf2FqZAXfG)
+
+curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=570025501392165&client_secret=d37196d3bf5f40b164a992181b84f4ae&fb_exchange_token=EAAIGb2eFZCSUBAKQ71LLnIH3ZC1Iu9WziUD4FaKOZBJDBXqSJ7vL7pvDlPXuCGiAMWfYaJD78vLS3ptJQdXB6IE4aqWdQKyB4K43Oy3DOdYlZANdTVIiZCJxkDhp3ePSRQFmF3GPL7VXtsGWus2xE0ExE164C6VmWSkM4gt8YZCX3lShPRlda8f2hSDJ70caR5MnGGiZB4ABYDKf2FqZAXfG"
+
+(GET PAGE-ACCESS-TOKEN)
+
+curl -i -X GET "https://graph.facebook.com/114450916777127?fields=access_token&access_token=EAAKfIm0ZCLC4BAGZBus0TsLrLWRYdaELsepHJffu8SLryUpjDexcElWzjdmykNtzBrHqgYosxa2tPTVQl9Me1Tifs5JVKxbuORCghAJbfaIrYMB0ssESZCYQshBJciZCbmc4w0128enntVY0R5ZAhfvsA6VVswBHcqfWKPxvHTqbj9jT57M5GJqxC0o2ZBu38ZD"
+
+
+PublicacoesHerbalcochete
+
+page id:114450916777127
+
+LONG-LIVED-USER-ACCESS-TOKEN:
+
+EAAKfIm0ZCLC4BAGZBus0TsLrLWRYdaELsepHJffu8SLryUpjDexcElWzjdmykNtzBrHqgYosxa2tPTVQl9Me1Tifs5JVKxbuORCghAJbfaIrYMB0ssESZCYQshBJciZCbmc4w0128enntVY0R5ZAhfvsA6VVswBHcqfWKPxvHTqbj9jT57M5GJqxC0o2ZBu38ZD
+
+PAGE-ACCESS-TOKEN (HerbAlcochete - não esquecer de definir tb nos acessos da própria APP no Meta Developers):
+
+EAAKfIm0ZCLC4BANhKwwnqiZBXwhKJMW2lI4Uvp1ADiklYN6m3dqqHvV01ZAlyQDJRRZB0TnIbnZBYWMp8uZBzA6KHPLp08GPZBMpGseJmtVR3Js3briMV3PLukstwOAzUgFzg1GQw490bIZCBioomIcLY7dlBBq4hFNyBt0AEaEtX8ADV6AbRt0gD3byVE8y5YIZD
+
+
+PubsHerbAlcochete (Instagram)
+
+(GET LONG-LIVED-USER-ACCESS-TOKEN)
+curl -i -X GET "https://graph.instagram.com/access_token
+  ?grant_type=ig_exchange_token
+  &client_secret={instagram-app-secret}
+  &access_token={short-lived-access-token}"
+
+
+IG_user_ID = '17841433696344491'
+
+LONG-LIVED-USER-ACCESS-TOKEN:
+
+EAAIGb2eFZCSUBAHTGT3dQ6ZBAxULuB9nsRNmYYT3L17dtVyqBVSNxyrGYo8J1eL0vBQ5DKw2ZA4Jybf42VEJHAiZCxo48jsf0cVKpriLOJUislEwumI3fmTgJOXomro9Nd2b2JBlDsqTna0GD2ChQKff0aGhHsC49YuhaTAwNncGOyusx7rW
+
