@@ -1,0 +1,7 @@
+streamlit
+matplotlib
+requests
+pandas
+mpld3
+bs4
+tqdm
