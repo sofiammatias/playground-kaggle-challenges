@@ -13,7 +13,7 @@ install_requirements:
 # ----------------------------------
 
 streamlit:
-	-@streamlit run data-vis-with-matplotlib.py
+	-@streamlit run Data_Visualization_With_Streamlit.py
 
 
 # ----------------------------------

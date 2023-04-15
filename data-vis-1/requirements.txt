@@ -1,7 +1,6 @@
 streamlit
-matplotlib
 requests
 pandas
-mpld3
+numpy
 bs4
-tqdm
+pydeck
