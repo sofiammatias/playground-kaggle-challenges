@@ -1,0 +1,9 @@
+psycopg2
+traceback2
+logging
+pandas
+numpy
+datetime
+google
+urllib3
+apache-airflow
